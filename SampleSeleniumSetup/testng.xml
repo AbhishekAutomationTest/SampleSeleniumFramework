@@ -12,7 +12,7 @@
  
  <!-- <groups>
   	<run>
-      <include name="drag&drop" />	
+      <exclude name="drag&drop" />	
       </run>
   </groups>  -->
  
