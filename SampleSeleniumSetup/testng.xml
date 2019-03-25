@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false"> 
+
+<listeners>
+
+<listener class-name="web.TestNGListeners"/>
+
+</listeners>
+  
+  <test thread-count="5" name="Test Selenium Easy">
+ 
+ <!-- <groups>
+  	<run>
+      <include name="drag&drop" />	
+      </run>
+  </groups>  -->
+ 
+    <classes>
+      <class name="web.TestSeleniumEasy"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
