@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22278" started-at="2019-03-25T06:38:11Z" finished-at="2019-03-25T06:38:33Z">
+  <suite name="Suite" duration-ms="18664" started-at="2019-03-26T09:01:14Z" finished-at="2019-03-26T09:01:33Z">
     <groups>
     </groups>
-    <test name="Test Selenium Easy" duration-ms="22278" started-at="2019-03-25T06:38:11Z" finished-at="2019-03-25T06:38:33Z">
+    <test name="Test Selenium Easy" duration-ms="18664" started-at="2019-03-26T09:01:14Z" finished-at="2019-03-26T09:01:33Z">
       <class name="web.TestSeleniumEasy">
-        <test-method status="PASS" signature="initialSetup()[pri:0, instance:web.TestSeleniumEasy@7d9d1a19]" name="initialSetup" is-config="true" duration-ms="8024" started-at="2019-03-25T12:08:11Z" finished-at="2019-03-25T12:08:19Z">
+        <test-method status="PASS" signature="initialSetup()[pri:0, instance:web.TestSeleniumEasy@7d9d1a19]" name="initialSetup" is-config="true" duration-ms="8590" started-at="2019-03-26T14:31:14Z" finished-at="2019-03-26T14:31:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetup -->
-        <test-method status="PASS" signature="testInputField()[pri:0, instance:web.TestSeleniumEasy@7d9d1a19]" name="testInputField" duration-ms="1919" started-at="2019-03-25T12:08:19Z" finished-at="2019-03-25T12:08:21Z">
+        <test-method status="PASS" signature="testInputField()[pri:0, instance:web.TestSeleniumEasy@7d9d1a19]" name="testInputField" duration-ms="1299" started-at="2019-03-26T14:31:23Z" finished-at="2019-03-26T14:31:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInputField -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:web.TestSeleniumEasy@7d9d1a19]" name="TearDown" is-config="true" duration-ms="1751" started-at="2019-03-25T12:08:21Z" finished-at="2019-03-25T12:08:23Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:web.TestSeleniumEasy@7d9d1a19]" name="TearDown" is-config="true" duration-ms="1508" started-at="2019-03-26T14:31:24Z" finished-at="2019-03-26T14:31:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="initialSetup()[pri:0, instance:web.TestSeleniumEasy@7d9d1a19]" name="initialSetup" is-config="true" duration-ms="6591" started-at="2019-03-25T12:08:23Z" finished-at="2019-03-25T12:08:29Z">
+        <test-method status="PASS" signature="initialSetup()[pri:0, instance:web.TestSeleniumEasy@7d9d1a19]" name="initialSetup" is-config="true" duration-ms="5036" started-at="2019-03-26T14:31:26Z" finished-at="2019-03-26T14:31:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetup -->
-        <test-method status="PASS" signature="testCheckBox()[pri:1, instance:web.TestSeleniumEasy@7d9d1a19]" name="testCheckBox" duration-ms="2015" started-at="2019-03-25T12:08:29Z" finished-at="2019-03-25T12:08:31Z">
+        <test-method status="PASS" signature="testCheckBox()[pri:1, instance:web.TestSeleniumEasy@7d9d1a19]" name="testCheckBox" duration-ms="984" started-at="2019-03-26T14:31:31Z" finished-at="2019-03-26T14:31:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckBox -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:web.TestSeleniumEasy@7d9d1a19]" name="TearDown" is-config="true" duration-ms="1945" started-at="2019-03-25T12:08:31Z" finished-at="2019-03-25T12:08:33Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:web.TestSeleniumEasy@7d9d1a19]" name="TearDown" is-config="true" duration-ms="1203" started-at="2019-03-26T14:31:32Z" finished-at="2019-03-26T14:31:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
