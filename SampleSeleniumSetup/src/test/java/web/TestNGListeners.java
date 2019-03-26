@@ -10,7 +10,8 @@ public class TestNGListeners implements ITestListener
 {
 
 	@Override
-	public void onTestStart(ITestResult tr) {
+	public void onTestStart(ITestResult tr) 
+	{
 		log("Test Started....");
 	}
 	
@@ -65,4 +66,5 @@ public class TestNGListeners implements ITestListener
 		
 	}
 	
-}
+	}
+	
