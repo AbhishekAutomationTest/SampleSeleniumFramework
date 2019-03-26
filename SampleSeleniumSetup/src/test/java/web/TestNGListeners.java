@@ -6,7 +6,8 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
-public class TestNGListeners implements ITestListener {
+public class TestNGListeners implements ITestListener
+{
 
 	@Override
 	public void onTestStart(ITestResult tr) {
