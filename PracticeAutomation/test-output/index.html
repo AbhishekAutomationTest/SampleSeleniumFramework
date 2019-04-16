@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Practice_Automation">
+              <span class="suite-name border-failed">Practice Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Practice_Automation">
+                    <span>C:\Users\abhishagrawal\eclipse-workspace\PracticeAutomation\suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Practice_Automation">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Practice_Automation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Practice_Automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Practice_Automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Practice_Automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Practice_Automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,  1 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Practice_Automation" class="hide-methods failed suite-Practice_Automation"> (hide)</a> <!-- hide-methods failed suite-Practice_Automation -->
+                      <a href="#" panel-name="suite-Practice_Automation" class="show-methods failed suite-Practice_Automation"> (show)</a> <!-- show-methods failed suite-Practice_Automation -->
+                    </span>
+                    <div class="method-list-content failed suite-Practice_Automation">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Practice_Automation" title="learning.testScripts.DeliveryHeroTest" hash-for-method="searchHotelwithMinimumPrice">searchHotelwithMinimumPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Practice_Automation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Practice_Automation" class="hide-methods skipped suite-Practice_Automation"> (hide)</a> <!-- hide-methods skipped suite-Practice_Automation -->
+                      <a href="#" panel-name="suite-Practice_Automation" class="show-methods skipped suite-Practice_Automation"> (show)</a> <!-- show-methods skipped suite-Practice_Automation -->
+                    </span>
+                    <div class="method-list-content skipped suite-Practice_Automation">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Practice_Automation" title="learning.testScripts.DeliveryHeroTest" hash-for-method="confirmBooking">confirmBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Practice_Automation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Practice_Automation" class="hide-methods passed suite-Practice_Automation"> (hide)</a> <!-- hide-methods passed suite-Practice_Automation -->
+                      <a href="#" panel-name="suite-Practice_Automation" class="show-methods passed suite-Practice_Automation"> (show)</a> <!-- show-methods passed suite-Practice_Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Practice_Automation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Practice_Automation" title="learning.testScripts.AgodaTest" hash-for-method="confirmBooking">confirmBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Practice_Automation" title="learning.testScripts.AgodaTest" hash-for-method="enterDetails">enterDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Practice_Automation" title="learning.testScripts.DeliveryHeroTest" hash-for-method="enterDetails">enterDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Practice_Automation" title="learning.testScripts.AgodaTest" hash-for-method="searchHotelwithMinimumPrice">searchHotelwithMinimumPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Practice_Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Practice_Automation" class="panel Practice_Automation">
+          <div class="suite-Practice_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">learning.testScripts.DeliveryHeroTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchHotelwithMinimumPrice">
+                  </a> <!-- searchHotelwithMinimumPrice -->
+                  <span class="method-name">searchHotelwithMinimumPrice</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at learning.testScripts.KeywordLibrary.isDisplayed(KeywordLibrary.java:65)
+	at learning.testScripts.DeliveryHeroTest.searchHotelwithMinimumPrice(DeliveryHeroTest.java:66)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_Automation-class-failed -->
+          <div class="suite-Practice_Automation-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">learning.testScripts.DeliveryHeroTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmBooking">
+                  </a> <!-- confirmBooking -->
+                  <span class="method-name">confirmBooking</span>
+                  <div class="stack-trace">java.lang.Throwable: Method DeliveryHeroTest.confirmBooking()[pri:0, instance:learning.testScripts.DeliveryHeroTest@e50a6f6] depends on not successfully finished methods
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_Automation-class-skipped -->
+          <div class="suite-Practice_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">learning.testScripts.AgodaTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmBooking">
+                  </a> <!-- confirmBooking -->
+                  <span class="method-name">confirmBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterDetails">
+                  </a> <!-- enterDetails -->
+                  <span class="method-name">enterDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchHotelwithMinimumPrice">
+                  </a> <!-- searchHotelwithMinimumPrice -->
+                  <span class="method-name">searchHotelwithMinimumPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_Automation-class-passed -->
+          <div class="suite-Practice_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">learning.testScripts.DeliveryHeroTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterDetails">
+                  </a> <!-- enterDetails -->
+                  <span class="method-name">enterDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_Automation-class-passed -->
+        </div> <!-- panel Practice_Automation -->
+        <div panel-name="test-xml-Practice_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\abhishagrawal\eclipse-workspace\PracticeAutomation\suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Practice Automation&quot;&gt;
+  &lt;parameter name=&quot;Browser-Name&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test name=&quot;Agoda HotelBooking Test&quot;&gt;
+    &lt;parameter name=&quot;URL1&quot; value=&quot;https://www.agoda.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;learning.testScripts.AgodaTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Agoda HotelBooking Test --&gt;
+  &lt;test name=&quot;Delivery Hero Test&quot;&gt;
+    &lt;parameter name=&quot;URL2&quot; value=&quot;https://www.deliveryhero.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;learning.testScripts.DeliveryHeroTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Delivery Hero Test --&gt;
+  &lt;test name=&quot;Delivery Hero Test(failed)&quot;&gt;
+    &lt;parameter name=&quot;URL2&quot; value=&quot;https://www.deliveryhero.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;learning.testScripts.AgodaTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;closeBrowser&quot;/&gt;
+          &lt;include name=&quot;init&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- learning.testScripts.AgodaTest --&gt;
+      &lt;class name=&quot;learning.testScripts.DeliveryHeroTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;enterDetails&quot;/&gt;
+          &lt;include name=&quot;closeBrowser&quot;/&gt;
+          &lt;include name=&quot;init&quot;/&gt;
+          &lt;include name=&quot;searchHotelwithMinimumPrice&quot;/&gt;
+          &lt;include name=&quot;reportFlush&quot;/&gt;
+          &lt;include name=&quot;confirmBooking&quot;/&gt;
+          &lt;include name=&quot;instantiateExtentReport&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- learning.testScripts.DeliveryHeroTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Delivery Hero Test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Practice Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Practice_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Practice Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Agoda HotelBooking Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Delivery Hero Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Delivery Hero Test(failed) (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Practice_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Practice Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Practice_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Practice Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Practice_Automation');
+function tableData_Practice_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchHotelwithMinimumPrice')
+data.setCell(0, 2, 'learning.testScripts.DeliveryHeroTest')
+data.setCell(0, 3, 6784);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enterDetails')
+data.setCell(1, 2, 'learning.testScripts.DeliveryHeroTest')
+data.setCell(1, 3, 2537);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'enterDetails')
+data.setCell(2, 2, 'learning.testScripts.AgodaTest')
+data.setCell(2, 3, 1201);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'confirmBooking')
+data.setCell(3, 2, 'learning.testScripts.AgodaTest')
+data.setCell(3, 3, 778);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchHotelwithMinimumPrice')
+data.setCell(4, 2, 'learning.testScripts.AgodaTest')
+data.setCell(4, 3, 775);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'confirmBooking')
+data.setCell(5, 2, 'learning.testScripts.DeliveryHeroTest')
+data.setCell(5, 3, 0);
+window.suiteTableData['Practice_Automation']= { tableData: data, tableDiv: 'times-div-Practice_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-Practice_Automation">
+              </div> <!-- times-div-Practice_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Practice_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Practice Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Practice_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Practice_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">learning.testScripts.DeliveryHeroTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">instantiateExtentReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">learning.testScripts.AgodaTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init(https://www.agoda.com/, chrome, org.testng.TestRunner@3e8f7922)</span>
+                <span class="method-start">280 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">enterDetails</span>
+                <span class="method-start">48180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchHotelwithMinimumPrice</span>
+                <span class="method-start">49404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">confirmBooking</span>
+                <span class="method-start">50181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">50960 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">learning.testScripts.DeliveryHeroTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init(https://www.deliveryhero.com/, chrome, org.testng.TestRunner@63192798)</span>
+                <span class="method-start">52586 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">enterDetails</span>
+                <span class="method-start">69003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchHotelwithMinimumPrice</span>
+                <span class="method-start">71542 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">78335 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">reportFlush</span>
+                <span class="method-start">79581 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
