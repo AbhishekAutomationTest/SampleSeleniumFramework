@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Practice Automation" verbose="1" parallel="false">
+
+	<parameter name="Browser-Name" value="chrome"></parameter>
+
+	<!-- <test name="BeforeSuite And AfterSuite"> <classes> <class name = "learning.testScripts.ExtentReporting"/> 
+		</classes> </test> -->
+
+	<test name="Agoda HotelBooking Test">
+		<parameter name="URL1" value="https://www.agoda.com/"></parameter>
+		<classes>
+			<class name="learning.testScripts.AgodaTest" />
+		</classes>
+	</test>
+
+	<test name="Delivery Hero Test">
+		<parameter name="URL2" value="https://www.deliveryhero.com/"></parameter>
+		<classes>
+			<class name="learning.testScripts.DeliveryHeroTest" />
+		</classes>
+	</test>
+</suite>
